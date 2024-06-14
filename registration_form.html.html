@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{
+			width: 100px;
+			height: 600px;
+			background-image: url("image.jpg");
+			background-size: cover;
+			align-items: center;
+		}
+		
+		textarea{
+			width: 300px;
+			height: 200px;
+		}
+		.but{
+			width: 100px;
+			padding: 10px;
+		}
+		h1{
+			justify-content: center;
+			text-align: center;
+			margin-top: 0;
+	
+			background-color: rgba(120, 50, 80, 0.2);
+		    border: white;
+		    color: white;
+		   
+		}
+		
+		form{
+		    justify-items: center;
+			align-items: center;
+			background-color: plum;
+			display: flex;
+			margin-top: 40px;
+			height: 450px;
+		    width: 550px;
+
+		}
+		
+		
+		
+	</style>
+    <title></title>
+</head>
+<body>
+<h1>REGISTRATION FORM</h1>
+<form>
+	<table>
+		<tr>
+			<td>
+				&nbsp&nbsp&nbsp
+				<label for="name">Name</label>
+			</td>
+			<td>
+			    <input type="text" name="fname">
+			    <br>
+			    &nbsp&nbsp&nbsp
+			    First Name
+		    </td>
+			<td>
+				&nbsp&nbsp&nbsp
+				<input type="text" name="lname">
+				<br>
+				&nbsp&nbsp&nbsp
+				Last Name
+			</td>
+		</tr>
+		<tr>
+			<td>
+			   <label>Mobile No.</label>
+		    </td>
+		    <td>
+		    
+		    	<input type="number" name="mob">
+		    	<br>
+		    	&nbsp&nbsp&nbsp
+		    	Contact No
+		    </td>
+		    <td>
+		    	&nbsp
+		    	Gender
+		    	<input type="radio" name="gender" value="male">Male
+		    	<input type="radio" name="gender" value="female">Female
+		    </td>
+		    <tr>
+		    <td>
+		    	<label for="addr">Address</label>
+		    </td>
+		    <td colspan="3">
+		    	
+		    	<textarea type ="text" name="addr"></textarea>
+		    </td>
+		</tr>
+		<tr>
+			<td>
+				&nbsp&nbsp&nbsp
+				<label for="user">Username</label>
+			</td>
+			<td colspan="3">
+				<input type="text" name="user">
+				&nbsp&nbsp&nbsp
+				<br>
+				Username
+			</td>
+		</tr>
+		<tr>
+			<td>
+				&nbsp&nbsp&nbsp
+				<label for="pass">Password</label>
+			</td>
+			<td colspan="3">
+				<input type="Password" name="pass">
+				&nbsp&nbsp&nbsp
+				<br>
+				Password
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<center><input type="submit" value="go"></center>
+			</td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
